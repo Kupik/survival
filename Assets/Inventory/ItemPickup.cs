@@ -12,7 +12,7 @@ public class ItemPickup : MonoBehaviour
         Destroy(gameObject); // il distrugem dupa ce il luam si il vom vedea in inventari
     }
 
-    private void OnMouseDown() // apasind pe mouse click singa vom lua obiectul
+    private void OnMouseDown() 
     {
         Pickup();
     }
